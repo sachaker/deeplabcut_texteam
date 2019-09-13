@@ -12,3 +12,7 @@ Typically, the frame that DLC selects when you set the cropping parameter to Tru
 ### Code \ Track whiskers \ getNeighboringFrames.m
 This script is for situations where the user is labeling and cannot identify the whiskers from the given frame.
 Despite the generally decent conditions of the hi-speed setup, it is inevitable that some frames will be inherently unlabelable, and thus visualizing the frames leading up to or following the current frame can be helpful in tracking those whiskers.
+
+### Protocols \ howTo.md
+Step-by-step protocol for running DLC pipeline.
+This is for those who find it easier to follow than just blindly running the script. Feel free to copy and paste!
