@@ -3,7 +3,7 @@ Pertinent code and documents for Hausser group DLC analysis
   ![alt text](https://pouch.jumpshare.com/preview/kkTqVaAUz4uHM7tu6KpKpxkbJg6ejO0dknNShcUkOU4LPFeE_cx4MKnHtk4pSvO7V8XUwix4sCliAF3y3w7PmRA1jQB_zmxltR5bgJ1-nls)
 
 
-## Code Overview
+## An overview
 
 ### Code \ Crop video \ getCroppingDims.m
 This script is intended to help determine the cropping dimensions to input before labeling.
