@@ -1,4 +1,8 @@
-<div class="content"># Get Neighboring Frames used for DLC, where whisker identification is uncertain Sacha McElligott 09.09.2019 ## Contents
+<div class="content">
+
+#### Get Neighboring Frames used for DLC, where whisker identification is uncertain 
+#### Sacha McElligott 
+#### 09.09.2019 
 
 ## Initialization
 
