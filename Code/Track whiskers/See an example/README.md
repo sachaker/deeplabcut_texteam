@@ -1,7 +1,5 @@
 <div class="content"># Get Neighboring Frames used for DLC, where whisker identification is uncertain Sacha McElligott 09.09.2019 ## Contents
 
-<div>* [Initialization](#1) * [Select data to pull](#2) * [Pull data](#3) * [Display data](#4)</div>
-
 ## Initialization
 
 <pre class="codeinput">close <span class="string">all</span>; clear <span class="string">all</span>; clc;
