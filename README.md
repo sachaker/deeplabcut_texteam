@@ -15,4 +15,4 @@ Despite the generally decent conditions of the hi-speed setup, it is inevitable 
 
 ### Protocols \ howTo.md
 Step-by-step protocol for running DLC pipeline.
-This is for those who find it easier to follow than just blindly running the script. Feel free to copy and paste!
+This is for those who find it easier to follow than just blindly running the script. Feel free to copy and paste! Please note that this pipeline was written to navigate through our current directory structure, which is bound to change in the future (or will be different for users outside our group).
