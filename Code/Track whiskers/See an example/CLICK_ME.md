@@ -1,8 +1,7 @@
 <div class="content">
 
 # Get Neighboring Frames
-#### Sacha McElligott 
-#### 09.09.2019 
+###### Sacha McElligott || 09.09.2019 
 
 ## Initialization
 
