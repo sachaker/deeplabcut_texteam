@@ -1,5 +1,5 @@
 # Running DeepLabCut
-#### This is an expanded, more visual, and step-by-step overview of my DLC_pyscript.py script
+#### *This is an expanded, more visual, and step-by-step overview of my DLC_pyscript.py script*
 
 ### Run Command Prompt as Admin
 
