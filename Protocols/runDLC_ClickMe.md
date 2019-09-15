@@ -83,7 +83,7 @@ def main(): # avoid calling the entire script when 'numframes' is imported
 
 ### Create the project
 ```python
-config_path = deeplabcut.create_new_project(mouse + "-" + date, labeler, videoFiles) # just to be safe
+config_path = deeplabcut.create_new_project(mouse + "-" + date, labeler, videoFiles)
 ```
 
 ### All done!
