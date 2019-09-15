@@ -4,7 +4,7 @@
 
 ### Activate DLC, bypass access restrictions to Z: drive, and open Python environment
 ```
-cd Users\tex_analysis\Desktop
+cd \Users\tex_analysis\Desktop
 activate dlc-windowsGPU
 net use Z:
 Z:
