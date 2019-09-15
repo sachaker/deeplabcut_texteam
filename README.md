@@ -6,7 +6,8 @@ Pertinent code and documents for Hausser group DLC analysis
 ## What's new
 - Nothing yet!
 
-## An overview
+
+## Repository overview
 
 ### Code \ Crop video \ getCroppingDims.m
 This script is intended to help determine the cropping dimensions to input before labeling.
