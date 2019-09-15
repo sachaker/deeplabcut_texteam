@@ -10,7 +10,7 @@ Pertinent code and documents for Hausser Lab DLC analysis
 
 ## Repository overview
 
-### Code \ Crop video \ [getCroppingDims.m](https://github.com/sachaker/deeplabcut_texteam/blob/master/Code/Crop video/getCroppingDims.m) 
+### Code \ Crop video \ [getCroppingDims.m](https://github.com/sachaker/deeplabcut_texteam/blob/master/Code/Crop%20video/getCroppingDims.m) 
 This script is intended to help determine the cropping dimensions to input before labeling.
 Typically, the frame that DLC selects when you set the cropping parameter to True is one that doesn't capture the full reach of the whisker, and thus you are liable to select dimensions that will cut off the whisker at a crucial timepoint. I created this script to allow users to shuffle through frames until the full whisker trajectory is covered, and then make a selection while visualizing the frame. 
 
