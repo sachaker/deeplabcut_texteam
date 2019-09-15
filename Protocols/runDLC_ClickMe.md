@@ -76,6 +76,9 @@ projectPath = session_path + '\\' + mouse + '-' + date + '-' + labeler + '-' + y
 ```python
 totalFrames = 200
 numframes = (totalFrames - (totalFrames % num_subsessions)) / num_subsessions
+
+def main(): # avoid calling the entire script when 'numframes' is imported 
+    pass
 ```
 
 ### Create the project
