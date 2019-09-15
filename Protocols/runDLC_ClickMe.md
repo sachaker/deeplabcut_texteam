@@ -60,4 +60,27 @@ list.sort(videoFiles)
 list.sort(f)
 ```
 
-###  
+### Use our DLC syntax to set the project path 
+```python
+now = datetime.now()
+year = now.strftime("%Y")
+month = now.strftime("%m")
+day = now.strftime("%d")
+	
+labeler = input('What are the initials of the primary labeler?: ')
+
+projectPath = session_path + '\\' + mouse + '-' + date + '-' + labeler + '-' + year + '-' + month + '-' + day 
+```
+
+### Calculate number of frames per video (will be imported into config.yaml)
+```python
+totalFrames = 200
+numframes = (totalFrames - (totalFrames % num_subsessions)) / num_subsessions
+```
+
+### Create the project
+```python
+config_path = deeplabcut.create_new_project(mouse + "-" + date, labeler, videoFiles) # just to be safe
+```
+
+### All done!
