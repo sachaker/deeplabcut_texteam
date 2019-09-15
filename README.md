@@ -3,7 +3,7 @@ Pertinent code and documents for Hausser Lab DLC analysis
 
   ![alt text](https://pouch.jumpshare.com/preview/kkTqVaAUz4uHM7tu6KpKpxkbJg6ejO0dknNShcUkOU4LPFeE_cx4MKnHtk4pSvO7V8XUwix4sCliAF3y3w7PmRA1jQB_zmxltR5bgJ1-nls)
 
-## What's new - 09/15/2019
+## What's new
 - Added hyperlinks for files
 - Added a guidebook for labeling
 
