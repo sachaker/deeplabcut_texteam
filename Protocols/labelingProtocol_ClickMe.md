@@ -10,5 +10,3 @@
 1. Mark frame number down in 'Unsure Frames' column of *whisker_data_DLC.xls*
 2. Run [getNeighboringFrames.m](https://github.com/sachaker/deeplabcut_texteam/blob/master/Code/Track%20whiskers/getNeighboringFrames.m) and check surrounding frames
 3. Have a colleague check it for you
-
-## 
