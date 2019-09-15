@@ -1,8 +1,6 @@
-# 
-# move this file to \Anaconda3\\envs\\dlc-windowsGPU\\Lib'
+ # move this file to \Anaconda3\envs\dlc-windowsGPU\Lib
 
-
-# Modifications made by SM on 10.09.19
+# Modifications made by SM on 15.09.19
 
 # todo list (things to automate)
 	# make video list based on num_subsessions variable --- Done! (SM, 10.09.19)
@@ -63,25 +61,11 @@ day = now.strftime("%d")
 labeler = input('What are the initials of the primary labeler?: ')
 
 projectPath = session_path + '\\' + mouse + '-' + date + '-' + labeler + '-' + year + '-' + month + '-' + day 
-
-###create symlinks	
-##for i in range(num_subsessions):
-	##dst = projectPath + '\\videos\\' + f[i]
-    ##os.symlink(videoFiles[i], dst)
 	
 totalFrames = 200
 numframes = (totalFrames - (totalFrames % num_subsessions)) / num_subsessions
 	
-	
 config_path = deeplabcut.create_new_project(mouse + "-" + date, labeler, videoFiles) # just to be safe
-
-#####for i in range(num_subsessions):
-#####    deeplabcut.add_new_videos(config_path, [videoFiles[i]]) # should create synlinks for each
-
-#create symbolic link for videos (NOT NECESSARY SINCE videoFiles IS A LIST AND STORES ALL VIDEOS AS SYMLINKS)
-##for i in range(num_subsessions):
-##	dst = config_path[0:-11] + "\\Videos\\" + f[i]
-##	os.symlink(videoFiles[i], dst)
 
 # crop and select frames - this takes a little while for each subsession video
 # make sure to have the video open to know how you want to crop
