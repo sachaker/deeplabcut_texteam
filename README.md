@@ -4,8 +4,9 @@ Pertinent code and documents for Hausser Lab DLC analysis
   ![alt text](https://pouch.jumpshare.com/preview/kkTqVaAUz4uHM7tu6KpKpxkbJg6ejO0dknNShcUkOU4LPFeE_cx4MKnHtk4pSvO7V8XUwix4sCliAF3y3w7PmRA1jQB_zmxltR5bgJ1-nls)
 
 ## What's new
+- Uploaded revised code for running DLC   
 - Added hyperlinks for files
-- Added a guidebook for labeling
+- Made a guidebook for labeling
 
 
 ## Repository overview
