@@ -12,7 +12,12 @@ Pertinent code and documents for Hausser Lab DLC analysis
 
 ## Repository overview
 
-### Code \ Run DLC \ 
+### Code \ Run DLC \ [DLC_pyscript.py](https://github.com/sachaker/deeplabcut_texteam/blob/master/Code/Run%20DLC/DLC_pyscript.py)
+Main script for creating a new project in DLC.
+Functionality includes: simple interface for user input, number of frames to extract is updated programmatically, automated creation of folders for each video in session.
+
+### Code \ Run DLC \ [new.py](https://github.com/sachaker/deeplabcut_texteam/blob/master/Code/Run%20DLC/new.py)
+Modified script from DLC library, allowing for the various functionalities of DLC_pyscript.py. 
 
 ### Code \ Crop video \ [getCroppingDims.m](https://github.com/sachaker/deeplabcut_texteam/blob/master/Code/Crop%20video/getCroppingDims.m) 
 This script is intended to help determine the cropping dimensions to input before labeling.
@@ -27,7 +32,7 @@ Guidebook for the labeling process and an attempt to codify some of the principl
 
 ### Protocols \ [runDLC.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runDLC.md)
 Simple protocol for running DLC pipeline.
-Shows how to create a project from scratch and goes through a few of the other functions in DLC
+Shows how to create a project from scratch and goes through a few of the other functions in DLC.
 
 ### Protocols \ [runDLC_Walthrough.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runDLC_Walkthrough.md)
 This is for those who find it easier to follow than just blindly running the script. Feel free to copy and paste! Please note that this pipeline was written to navigate through our current directory structure, which is bound to change in the future (or will be different for users outside our group). In other words, this How-To is not meant to be prescriptive, but rather a rough guideline for users unfamiliar with the DLC process.
