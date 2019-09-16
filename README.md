@@ -25,7 +25,7 @@ Typically, the frame that DLC selects when you set the cropping parameter to Tru
 
 ### Code \ Track whiskers \ [getNeighboringFrames.m](https://github.com/sachaker/deeplabcut_texteam/blob/master/Code/Track%20whiskers/getNeighboringFrames.m) 
 This script is for situations where the user is labeling and cannot identify the whiskers from the given frame.
-Despite the generally decent conditions of the hi-speed setup, it is inevitable that some frames will be inherently unlabelable, and thus visualizing the frames leading up to or following the current frame can be helpful in tracking those whiskers.
+Despite the generally decent conditions of the hi-speed setup, it is inevitable that some frames will be inherently unlabelable, and thus visualizing the frames leading up to or following the current frame can be helpful in tracking those whiskers. See an example [here](https://github.com/sachaker/deeplabcut_texteam/blob/master/Code/Track%20whiskers/See%20an%20example/CLICK_ME.md)
 
 ### Protocols \ [labelingProtocol.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/labelingProtocol.md)
 Guidebook for the labeling process and an attempt to codify some of the principles learned from past models.
