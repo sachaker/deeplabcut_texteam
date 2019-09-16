@@ -12,7 +12,7 @@ Z:
 
 ### 3. Run script
 ```
-python Y:\\student_folders\\Sacha\\Code\\DLC_pyscript.py
+python Y:\student_folders\Sacha\Code\DLC_pyscript.py
 ```
 
 #### All done! *Note*: while this is all you need to create a project in DLC, if you want a look under the hood of this program, click [here](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/runningDLC_Walkthrough.md). Keep scrolling if you want to see the various functions in DLC. Also, please note that you must still create the symlinks manually in \videos folder of the project path!
