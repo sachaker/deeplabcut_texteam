@@ -28,6 +28,10 @@ deeplabcut.extract_frames(config_path)
 ![alt_text](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/Images/extract_frames.PNG)
 
 ### Labeling frames
+###### Loads the labeling GUI, which is pretty self-explanatory. More info [here](https://github.com/AlexEMG/DeepLabCut/blob/master/docs/functionDetails.md#d-label-frames).  
+
 ```python
 deeplabcut.label_frames(config_path)
 ```
+
+![alt_text](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/Images/label_frames.PNG)
