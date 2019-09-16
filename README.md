@@ -27,7 +27,7 @@ Typically, the frame that DLC selects when you set the cropping parameter to Tru
 This script is for situations where the user is labeling and cannot identify the whiskers from the given frame.
 Despite the generally decent conditions of the hi-speed setup, it is inevitable that some frames will be inherently unlabelable, and thus visualizing the frames leading up to or following the current frame can be helpful in tracking those whiskers.
 
-### Protocols \ [labelingProtocol_ClickMe.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/labelingProtocol_ClickMe.md)
+### Protocols \ [labelingProtocol.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/labelingProtocol.md)
 Guidebook for the labeling process and an attempt to codify some of the principles learned from past models.
 
 ### Protocols \ [runDLC.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runDLC.md)
@@ -36,6 +36,3 @@ Shows how to create a project from scratch and goes through a few of the other f
 
 ### Protocols \ [runDLC_Walthrough.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runDLC_Walkthrough.md)
 This is for those who find it easier to follow than just blindly running the script. Feel free to copy and paste! Please note that this pipeline was written to navigate through our current directory structure, which is bound to change in the future (or will be different for users outside our group). In other words, this How-To is not meant to be prescriptive, but rather a rough guideline for users unfamiliar with the DLC process.
-
-# Last update
-09.16.2019 -- London, UK
