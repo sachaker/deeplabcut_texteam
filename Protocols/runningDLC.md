@@ -7,6 +7,7 @@
 cd \Users\tex_analysis\Desktop
 activate dlc-windowsGPU
 net use Z:
+net use Y:
 Z:
 ```
 
