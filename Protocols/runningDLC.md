@@ -36,7 +36,7 @@ deeplabcut.label_frames(config_path)
 ![alt_text](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/Images/label_frames.PNG)
 
 ### Checking labels
-###### This function is especially helpful when there are multiple frames you are unsure of. I am considering developing some of my own functions, and among them is only extracting unsure frames (calculated by either DLC or by those the user has inputted in the Google Sheets file).
+###### This function saves labeled frames as images, and is especially helpful when there are multiple frames you are unsure of. I'm considering developing a mini-library of my own functions for DLC, and among them is only extracting unsure frames (calculated by either DLC or by those the user has inputted in the Google Sheets file).
 
 ```python
 deeplabcut.check_labels(config_path)
