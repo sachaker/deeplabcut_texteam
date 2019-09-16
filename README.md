@@ -36,3 +36,6 @@ Shows how to create a project from scratch and goes through a few of the other f
 
 ### Protocols \ [runDLC_Walthrough.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runDLC_Walkthrough.md)
 This is for those who find it easier to follow than just blindly running the script. Feel free to copy and paste! Please note that this pipeline was written to navigate through our current directory structure, which is bound to change in the future (or will be different for users outside our group). In other words, this How-To is not meant to be prescriptive, but rather a rough guideline for users unfamiliar with the DLC process.
+
+# Last update
+09.16.2019 -- London, UK
