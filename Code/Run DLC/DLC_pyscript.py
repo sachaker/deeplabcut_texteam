@@ -7,18 +7,15 @@
 	# set numframes2pick variable in .yaml file depending on num_subsessions --- Done! (SM, 10.09.19)
 	# find out how to create the shortcut programmatically to fix the symbolic link hack --- Done! (SM, 10.09.19)
 
-# to avoid running code when module is imported
-def main():
-    pass
-	
+
 ###### Main ######
-import deeplabcut, os
+import deeplabcut, os, numpy
 from datetime import datetime
+from shutil import copyfile
 
 mouse = input('Which mouse?: ') # cb107
 date = input('Date? (YYYYMMDD): ') # 20170523
 num_subsessions = int(input('How many subsessions?: ')) # 7
-
 
 # prepare path variables
 session_path_mouse = 'Z:\\data\\HS\\DLC\\' + mouse
@@ -64,7 +61,9 @@ projectPath = session_path + '\\' + mouse + '-' + date + '-' + labeler + '-' + y
 	
 totalFrames = 200
 numframes = (totalFrames - (totalFrames % num_subsessions)) / num_subsessions
-	
+
+numpy.save('C:\\Users\\tex_analysis\\Anaconda3\\envs\\dlc-windowsGPU\\Lib\\numframes',numframes)
+
 config_path = deeplabcut.create_new_project(mouse + "-" + date, labeler, videoFiles) # just to be safe
 
 # crop and select frames - this takes a little while for each subsession video

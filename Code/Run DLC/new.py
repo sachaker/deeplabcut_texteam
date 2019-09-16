@@ -49,9 +49,10 @@ def create_new_project(project, experimenter, videos, working_directory=None, co
     Users must format paths with either:  r'C:\ OR 'C:\\ <- i.e. a double backslash \ \ )
 
     """
-    from DLC_pyscript import numframes
+    #from DLC_pyscript import numframes
     from datetime import datetime as dt
     from deeplabcut.utils import auxiliaryfunctions
+    import numpy
 	
     date = dt.today()
     month = date.strftime("%B")
@@ -158,7 +159,7 @@ def create_new_project(project, experimenter, videos, working_directory=None, co
     cfg_file['cropping']=False
     cfg_file['start']=0
     cfg_file['stop']=1
-    cfg_file['numframes2pick']=numframes
+	cfg_file['numframes2pick'] = int(numpy.load('C:\\Users\\tex_analysis\\Anaconda3\\envs\\dlc-windowsGPU\\Lib\\numframes.npy'))
     cfg_file['TrainingFraction']=[0.95]
     cfg_file['iteration']=0
     cfg_file['resnet']=50
