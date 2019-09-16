@@ -15,11 +15,11 @@ Pertinent code and documents for Hausser Lab DLC analysis
 ### Protocols \ [labelingProtocol.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/labelingProtocol.md)
 Guidebook for the labeling process and an attempt to codify some of the principles learned from past models.
 
-### Protocols \ [runDLC.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runDLC.md)
+### Protocols \ [runningDLC.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runningDLC.md)
 Simple protocol for running DLC pipeline.
 Shows how to create a project from scratch and goes through a few of the other functions in DLC.
 
-### Protocols \ [runDLC_Walkthrough.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runDLC_Walkthrough.md)
+### Protocols \ [runningDLC_Walkthrough.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runningDLC_Walkthrough.md)
 This is for those who find it easier to follow than just blindly running the script. Feel free to copy and paste! Please note that this pipeline was written to navigate through our current directory structure, which is bound to change in the future (or will be different for users outside our group). In other words, this How-To is not meant to be prescriptive, but rather a rough guideline for users unfamiliar with the DLC process.
 
 ### Code \ Run DLC \ [DLC_pyscript.py](https://github.com/sachaker/deeplabcut_texteam/blob/master/Code/Run%20DLC/DLC_pyscript.py)
