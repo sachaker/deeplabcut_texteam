@@ -3,9 +3,9 @@
 - 6 nodes per whisker
 - 1 model per session
 - 200 frames per model, divided equally among the subsessions
-- Whisker out of the frame? -- Do NOT label!
+- Whisker out of the frame?—Do NOT label!
 - Keep the increment size between nodes fixed
-- End of the whisker occluded? -- label only as many nodes at fit with the increment size!
+- End of the whisker occluded?—label only as many nodes at fit with the increment size!
 
 ## Uncertain about the whisker position for a given frame?
 1. Mark frame number down in 'Unsure Frames' column of *whisker_data_DLC.xls*
