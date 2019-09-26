@@ -4,6 +4,7 @@ Pertinent code and documents for Hausser Lab DLC analysis
   ![alt text](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/Images/whiskers.gif)
 
 ## What's new
+- Updated DLC protocol
 - Updated DLC walkthrough
 - Uploaded revised code for running DLC (new.py and DLC_pyscript.py)  
 - Added hyperlinks for files
@@ -13,7 +14,7 @@ Pertinent code and documents for Hausser Lab DLC analysis
 ## Repository overview
 
 ### Protocols \ [labelingProtocol.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/labelingProtocol.md)
-Guidebook for the labeling process and an attempt to codify some of the principles learned from past models.
+Main guidebook for the labeling process and an attempt to codify some of the principles learned from past models.
 
 ### Protocols \ [runningDLC.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runningDLC.md)
 Simple protocol for running DLC pipeline.
