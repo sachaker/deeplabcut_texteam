@@ -1,7 +1,7 @@
 # DeepLabCut - Tex Team
 Pertinent code and documents for Hausser Lab DLC analysis
 
-  ![alt text](https://pouch.jumpshare.com/preview/kkTqVaAUz4uHM7tu6KpKpxkbJg6ejO0dknNShcUkOU4LPFeE_cx4MKnHtk4pSvO7V8XUwix4sCliAF3y3w7PmRA1jQB_zmxltR5bgJ1-nls)
+  ![alt text](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/Images/whiskers.gif)
 
 ## What's new
 - Updated DLC walkthrough
