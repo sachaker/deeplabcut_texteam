@@ -1,4 +1,5 @@
 ## Labeling overview
+- Goal: 2 sessions per mouse
 - 2 whiskers, centrally located
 - 6 nodes per whisker
 - 1 model per session
