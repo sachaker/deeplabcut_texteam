@@ -4,7 +4,7 @@ Pertinent code and documents for Hausser Lab DLC analysis
   ![alt text](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/Images/whiskers.gif)
 
 ## What's new
-- Added specifications for DLC models
+- Added DLC model specs and data
 - Updated DLC protocol
 - Updated DLC walkthrough
 - Uploaded revised code for running DLC (new.py and DLC_pyscript.py)  
@@ -14,15 +14,15 @@ Pertinent code and documents for Hausser Lab DLC analysis
 
 ## Repository overview
 
+### Protocols \ [trainingProtocol.md](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/trainingProtocol.md)
+Modifications to be made to pose_cfg.yaml for each DLC model. Variables are optimized to expedite convergence of the models. Data supporting the step sizes are also found here
+
 ### Protocols \ [labelingProtocol.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/labelingProtocol.md)
 Main guidebook for the labeling process and an attempt to codify some of the principles learned from past models.
 
 ### Protocols \ [runningDLC.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runningDLC.md)
 Simple protocol for running DLC pipeline.
 Shows how to create a project from scratch and goes through a few of the other functions in DLC.
-
-### Protocols \ [trainingProtocol.md](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/trainingProtocol.md)
-Modifications to be made to pose_cfg.yaml for each DLC model. Variables are optimized to expedite convergence of the models. Data supporting the step sizes are also found here
 
 ### Protocols \ [runningDLC_Walkthrough.md](https://github.com/sachaker/deeplabcut_texteam/tree/master/Protocols/runningDLC_Walkthrough.md)
 This is for those who find it easier to follow than just blindly running the script. Feel free to copy and paste! Please note that this pipeline was written to navigate through our current directory structure, which is bound to change in the future (or will be different for users outside our group). In other words, this How-To is not meant to be prescriptive, but rather a rough guideline for users unfamiliar with the DLC process.
