@@ -3,16 +3,15 @@ Pertinent code and documents for Hausser Lab DLC analysis
 
   ![alt text](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/Images/whiskers.gif)
 
+
 ## What's new
-- Added DLC model specs and data
-- Updated DLC protocol
-- Updated DLC walkthrough
-- Uploaded revised code for running DLC (new.py and DLC_pyscript.py)  
-- Added hyperlinks for files
-- Made a guidebook for labeling
+- Built new labeling system
 
 
 ## Repository overview
+
+### Protocols \ [alternateLabelingGUI.md](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/alternateLabelingGUI.md)
+Gives a brief overview of the new labeling GUI, developed to expedite the labeling process.
 
 ### Protocols \ [trainingProtocol.md](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/trainingProtocol.md)
 Modifications to be made to pose_cfg.yaml for each DLC model. Variables are optimized to expedite convergence of the models. Data supporting the step sizes are also found here
