@@ -5,10 +5,14 @@ Pertinent code and documents for Hausser Lab DLC analysis
 
 
 ## What's new
+- Created protocol for refining labels
 - Built new labeling system
 
 
 ## Repository overview
+
+### Protocols \ [refineLabelsProtocol.md](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/refineLabelsProtocol.md)
+A protocol for retraining DLC networks.
 
 ### Protocols \ [alternateLabelingGUI.md](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/alternateLabelingGUI.md)
 Gives a brief overview of the new labeling GUI, developed to expedite the labeling process.
