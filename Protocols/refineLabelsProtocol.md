@@ -1,6 +1,21 @@
 # Refining labels and retraining networks
 ###### Oftentimes DLC models don't perform as good as we'd like them to after one round of training. This protocol reviews the steps involved in fixing predictions and retraining the network.
 
+### Step 0:
+a) Run Command Prompt as Admin
+
+b) `cd \users\tex_analysis\Desktop`
+
+c) `activate dlc-windowsGPU`
+
+d) `net use Z:`
+
+e) `Z:`
+
+f) `ipython`
+
+g) `import deeplabcut`
+
 ### Step 1:
 Set variables (example below)
 
