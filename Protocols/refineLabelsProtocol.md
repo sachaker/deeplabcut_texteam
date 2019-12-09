@@ -5,13 +5,9 @@
 a) Run Command Prompt as Admin
 
 b) `cd \users\tex_analysis\Desktop
-
 activate dlc-windowsGPU
-
 net use Z:
-
 Z:
-
 ipython`
 
 c) `import deeplabcut`
