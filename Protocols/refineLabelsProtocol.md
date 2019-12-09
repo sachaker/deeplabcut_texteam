@@ -4,17 +4,17 @@
 ### Step 0:
 a) Run Command Prompt as Admin
 
-b) `cd \users\tex_analysis\Desktop`
+b) `cd \users\tex_analysis\Desktop
 
-c) `activate dlc-windowsGPU`
+activate dlc-windowsGPU
 
-d) `net use Z:`
+net use Z:
 
-e) `Z:`
+Z:
 
-f) `ipython`
+ipython`
 
-g) `import deeplabcut`
+c) `import deeplabcut`
 
 ### Step 1:
 Set variables (example below)
