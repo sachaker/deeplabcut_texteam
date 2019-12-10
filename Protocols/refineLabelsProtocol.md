@@ -4,7 +4,7 @@
 ### Step 0:
 a) Run Command Prompt as Admin
 
-b) `cd \users\tex_analysis\Desktop`
+b) `cd \users\USERNAME\Desktop`
 
 `activate dlc-windowsGPU`
 
@@ -32,6 +32,16 @@ Extract frames to correct (NOTE: all sessions in **bold** on the shared Google S
 Start correcting the labels
 
 `deeplabcut.refine_labels(configPath)`
+
+**NOTE**
+
+- the likelihood threshold in the GUI is just for visualization purposes -- pick what ever you like!
+
+- if you quit and reload the labels, they will appear jumbled even though your original labels are actually saved!
+
+- load in frames from \labeled-data\subsession_00x
+
+- check the whiskers in \labeled-data\subsession_00x_labeled
 
 ### Step 4:
 Merge the corrected labels with previous labels and create training set
